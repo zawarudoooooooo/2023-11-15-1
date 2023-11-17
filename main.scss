@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color: lightcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    width: 100vw;
+    height: 65vh;
+    text-align: center;
+    margin-top: 15vmin;
+
+
+    .title{
+        font-size: 36pt;
+        color: lightslategrey;
+        margin-bottom: 5vmin;
+    }
+
+    .select{
+        margin-bottom: 5vmin;
+        #selectCity{
+            width: 75vmin;
+            height: 5vmin;
+            border-style: none;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 12pt;
+            color: lightslategrey;
+        }
+        #selectTime{
+            width: 75vmin;
+            height: 5vmin;
+            border-style: none;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 12pt;
+            color: lightslategrey;
+        }
+    }
+
+    .showArea{
+        .show{
+            width: 35vw;
+            height: 40vh;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            margin: auto;
+
+            .textArea{
+                width: 15vw;
+                height: 30vh;
+                text-align: center;
+                margin-left: 3vmin;
+                margin-top: 3vmin;
+
+                p{
+                    font-size: 14pt;
+                    color: lightslategrey;
+                    margin-bottom: 2vmin;
+                }
+                .temperature{
+                    display: flex;
+                    margin-left: 10vmin;
+                }
+
+                .rainy{
+                    display: flex;
+                    margin-left: 7vmin;
+                }
+            }
+
+            .imgArea{
+                width: 20vw;
+                height: 30vh;
+                margin-top: 9vmin;
+            }
+        }
+    }
+}
